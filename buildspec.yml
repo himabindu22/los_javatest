@@ -13,7 +13,7 @@ phases:
      
   pre_build:
     commands:
-     # - echo Nothing to do in the pre_build phase...
+     #- echo Nothing to do in the pre_build phase...
       #- mvn package sonar:sonar -Dsonar.host.url=$Host -Dsonar.login=$Login -Dsonar.login=$Username -Dsonar.password=$Password
       #- sleep 5
       #- curl -u $Username:$Password $Host/api/qualitygates/project_status?projectKey=org.example:messageUtil >result.json
